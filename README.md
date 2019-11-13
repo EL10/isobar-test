@@ -10,7 +10,7 @@ First I identified and created the courses data structure in the courses Reducer
 
 ### Installation and Development
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies and devDependencies and start the server. Dev server can be viewed at http://localhost:8080/
 
 ```sh
 $ cd <project-folder>
