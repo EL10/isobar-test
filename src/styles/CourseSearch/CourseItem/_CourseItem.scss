@@ -1,0 +1,30 @@
+.CourseItem {
+  display: flex;
+  flex: 1 0 100%;
+  flex-direction: row;
+  margin-bottom: 15px;
+
+  &__image {
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    flex: 0 0 auto;
+    margin-right: 15px;
+  }
+
+  &__details {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__name, &__description, &__author, &__publish-date, &__duration {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    width: 100%;
+  }
+}

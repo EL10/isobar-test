@@ -1,0 +1,16 @@
+
+@import "CourseList/CourseList";
+@import "CourseItem/CourseItem";
+
+.CourseSearch {
+
+  &__search {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__filters {
+    display: flex;
+    flex-direction: row;
+  }
+}

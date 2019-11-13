@@ -1,0 +1,8 @@
+.CourseList {
+
+  &__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

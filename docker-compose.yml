@@ -1,0 +1,14 @@
+version: '3'
+services:
+    express:
+        build: 
+            context: . 
+            dockerfile: Dockerfile
+        image: isobar_test_image:local
+        container_name: isobar_test_container01
+        restart: always
+        ports:
+            - "8080:8080"
+        volumes:
+            - ./:/isobar_test
+            - /isobar_test/node_modules

@@ -1,0 +1,19 @@
+@import "forms/forms";
+
+@import "./CourseSearch/CourseSearch";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.PageWrapper {
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+}
